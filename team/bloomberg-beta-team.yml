@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/Bloomberg-Beta/Manual/blob/main/1%20-%20Manual.md
+type: Team
+team:
+  - name: Roy Bahat
+    role: Head / Partner
+    linkedin: https://www.linkedin.com/in/roybahat/
+    twitter: https://twitter.com/roybahat
+  - name: James Cham
+    role: Partner
+    linkedin: https://www.linkedin.com/in/jcham
+    twitter: https://twitter.com/jamescham
+  - name: Karin Klein
+    role: Partner
+    linkedin: https://www.linkedin.com/in/karinklein/
+  - name: Angela Martin
+    role: Team
+    linkedin: https://www.linkedin.com/in/angelamartin/
+  - name: Lori Berenberg
+    role: Investor
+    linkedin: https://www.linkedin.com/in/loriberenberg/
+  - name: Julianne Fables
+    role: Team
+  - name: Beth Kroman
+    role: Team
+  - name: Amy Tam
+    role: Team
+  - name: Cate Taylor
+    role: Team
+  - name: Shivon Zilis
+    role: Advisor
+    linkedin: https://www.linkedin.com/in/shivon/
