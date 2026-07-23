@@ -3,9 +3,9 @@ method: searched
 source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
 summary:
   portfolio_total: 257
-  in_network: 43
-  api_providers: 24
-  missing: 214
+  in_network: 257
+  api_providers: 37
+  missing: 0
   stubs_created: 0
 companies:
 - name: Autonomous Cyber
@@ -13,9 +13,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autonomous-cyber
+  slug: autonomous-cyber
+  matched_by: domain
 - name: Bluesky
   url: https://bsky.social/
   stage: seed
@@ -30,105 +31,118 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fleetline
+  slug: fleetline
+  matched_by: domain
 - name: Floreo
   url: https://floreovr.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: floreo
+  slug: floreo
+  matched_by: domain
 - name: Fortastra
   url: https://www.fortastra.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fortastra
+  slug: fortastra
+  matched_by: domain
 - name: Humans&
   url: https://humansand.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humans-and
+  slug: humansand
+  matched_by: domain
 - name: NODA AI
   url: https://www.nodaintelligence.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noda-ai
+  slug: noda-ai
+  matched_by: domain
 - name: Prox
   url: https://www.prox.inc/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prox
+  slug: prox
+  matched_by: name-slug
 - name: Quadrillion
   url: https://quadrillion.io/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: quadrillion
+  in_network: true
+  is_api_provider: true
+  slug: quadrillion
+  matched_by: domain
 - name: Standard Practice
   url: https://www.standardpractice.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-practice
+  slug: standard-practice
+  matched_by: domain
 - name: Sygaldry
   url: https://sygaldry.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sygaldry
+  slug: sygaldry
+  matched_by: domain
 - name: TabTabTab
   url: https://tabtabtab.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tabtabtab
+  slug: tabtabtab
+  matched_by: domain
 - name: Vers
   url: https://vers.sh/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vers
+  in_network: true
+  is_api_provider: true
+  slug: vers
+  matched_by: domain
 - name: Agentuity
   url: https://www.agentuity.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentuity
+  slug: agentuity
+  matched_by: domain
 - name: Ajax
   url: https://www.joinajax.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ajax
+  slug: ajax
+  matched_by: domain
 - name: Anagram
   url: http://anagramsecurity.com/
   stage: seed
@@ -137,95 +151,106 @@ companies:
   slug: anagram
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: ARI
   url: https://shopari.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ari
+  slug: ari
+  matched_by: domain
 - name: Armstrong Robotics
   url: https://armstrong.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: armstrong-robotics
+  slug: armstrong-robotics
+  matched_by: domain
 - name: Atypical AI
   url: https://www.atypicalai.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atypical-ai
+  slug: atypical-ai
+  matched_by: domain
 - name: Bindery
   url: https://www.binderybooks.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bindery
+  slug: bindery
+  matched_by: domain
 - name: Bluefish AI
   url: https://bluefishai.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluefish-ai
+  slug: bluefish-ai
+  matched_by: domain
 - name: BossTax
   url: https://bosstaxapp.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bosstax
+  slug: bosstax
+  matched_by: domain
 - name: Camfer
   url: http://camfer.dev/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: camfer
+  slug: camfer
+  matched_by: domain
 - name: Corca
   url: https://corca.io
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corca
+  slug: corca
+  matched_by: domain
 - name: Dimensional
   url: https://www.dimensional.me/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dimensional
+  slug: dimensional
+  matched_by: domain
 - name: Drippi
   url: https://www.trydrippi.com/
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drippi
+  slug: drippi
+  matched_by: domain
 - name: EZKL
   url: https://ezkl.xyz/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ezkl
+  slug: ezkl
+  matched_by: domain
 - name: Guardrails AI
   url: https://www.guardrailsai.com/
   stage: seed
@@ -240,209 +265,235 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infilla
+  slug: infilla
+  matched_by: domain
 - name: Larridin
   url: https://larridin.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: larridin
+  in_network: true
+  is_api_provider: true
+  slug: larridin
+  matched_by: domain
 - name: Legion
   url: https://www.legionintel.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legion
+  slug: legion
+  matched_by: name-slug
 - name: Luminos.AI
   url: https://www.luminos.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luminosai
+  slug: luminosai
+  matched_by: domain
 - name: Offcall
   url: https://www.offcall.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offcall
+  slug: offcall
+  matched_by: domain
 - name: Omnifold
   url: https://omnifold.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omnifold
+  slug: omnifold
+  matched_by: domain
 - name: Oyi Labs
   url: https://oyilabs.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oyi-labs
+  slug: oyi-labs
+  matched_by: domain
 - name: PitPro Automation
   url: https://www.pitproauto.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pitpro-automation
+  slug: pitpro-automation
+  matched_by: domain
 - name: Poly
   url: https://withpoly.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poly
+  slug: poly
+  matched_by: name-slug
 - name: Protege
   url: https://www.withprotege.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: protege
+  slug: protege
+  matched_by: domain
 - name: Qpoint
   url: https://www.qpoint.io/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qpoint
+  slug: qpoint
+  matched_by: domain
 - name: Recess
   url: https://recess.gg/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recess
+  slug: recess
+  matched_by: domain
 - name: Rocketable
   url: http://rocketable.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rocketable
+  slug: rocketable
+  matched_by: domain
 - name: Spirl
   url: https://spirl.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spirl
+  slug: spirl
+  matched_by: name-slug
 - name: Sumble
   url: https://sumble.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sumble
+  in_network: true
+  is_api_provider: true
+  slug: sumble
+  matched_by: domain
 - name: Synaptic
   url: https://www.synaptic.build/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synaptic
+  slug: synaptic
+  matched_by: domain
 - name: Tavern Research
   url: https://tavernresearch.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tavern-research
+  slug: tavern-research
+  matched_by: domain
 - name: Tradeway
   url: https://tradesaretheway.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tradeway
+  slug: tradeway
+  matched_by: domain
 - name: Trayd
   url: https://www.buildtrayd.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trayd
+  slug: trayd
+  matched_by: domain
 - name: Twill
   url: https://www.withtwill.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twill
+  slug: twill
+  matched_by: domain
 - name: Vallor
   url: https://www.vallor.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vallor
+  slug: vallor
+  matched_by: domain
 - name: Vals AI
   url: https://www.vals.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vals-ai
+  slug: vals-ai
+  matched_by: domain
 - name: Aikito
   url: https://www.aikito.co/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aikito
+  slug: aikito
+  matched_by: domain
 - name: Airspace Intelligence
   url: https://www.airspace-intelligence.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airspace-intelligence
+  slug: airspace-intelligence
+  matched_by: domain
 - name: Aitomatic
   url: https://www.aitomatic.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aitomatic
+  slug: aitomatic
+  matched_by: domain
 - name: AtoB
   url: https://www.atob.co
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atob
+  slug: atob
+  matched_by: name-slug
 - name: Bash
   url: https://bash.video/
   stage: seed
@@ -457,25 +508,28 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baton-market
+  slug: baton-market
+  matched_by: name-slug
 - name: Black Crow AI
   url: https://www.blackcrow.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: black-crow-ai
+  slug: black-crow-ai
+  matched_by: domain
 - name: Bounti
   url: https://bounti.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bounti
+  in_network: true
+  is_api_provider: true
+  slug: bounti
+  matched_by: domain
 - name: Capsule
   url: https://capsule.video/
   stage: seed
@@ -499,9 +553,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: checkin
+  slug: checkin
+  matched_by: domain
 - name: Chef Robotics
   url: https://chefrobotics.ai
   stage: seed
@@ -524,72 +579,81 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearmix
+  slug: clearmix
+  matched_by: name-slug
 - name: Expected Parrot
   url: https://www.expectedparrot.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: expected-parrot
+  slug: expected-parrot
+  matched_by: domain
 - name: Gather AI
   url: https://www.gather.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gather-ai
+  slug: gather-ai
+  matched_by: domain
 - name: General Galactic Corporation
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: general-galactic-corporation
+  slug: general-galactic-corporation
+  matched_by: name-slug
 - name: Geometer
   url: https://geometer.io/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geometer
+  slug: geometer
+  matched_by: domain
 - name: Interintellect
   url: https://www.interintellect.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: interintellect
+  slug: interintellect
+  matched_by: domain
 - name: JusticeText
   url: https://justicetext.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: justicetext
+  slug: justicetext
+  matched_by: domain
 - name: Mechanical Orchard
   url: https://www.mechanical-orchard.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mechanical-orchard
+  slug: mechanical-orchard
+  matched_by: domain
 - name: MelodyArc
   url: https://melodyarc.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: melodyarc
+  slug: melodyarc
+  matched_by: domain
 - name: Nomad
   url: https://www.nomad-data.com/
   stage: seed
@@ -613,142 +677,160 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orgspace
+  slug: orgspace
+  matched_by: domain
 - name: Paperplane
   url: https://www.paperplane.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paperplane
+  slug: paperplane
+  matched_by: domain
 - name: Parlia
   url: https://parlia.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parlia
+  slug: parlia
+  matched_by: domain
 - name: RapidFort
   url: https://www.rapidfort.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rapidfort
+  slug: rapidfort
+  matched_by: domain
 - name: Ratio 21
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ratio-21
+  slug: ratio-21
+  matched_by: name-slug
 - name: Regrello
   url: https://www.regrello.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: regrello
+  slug: regrello
+  matched_by: domain
 - name: Rhetoric
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rhetoric
+  slug: rhetoric
+  matched_by: name-slug
 - name: Rill Data
   url: https://www.rilldata.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rill-data
+  in_network: true
+  is_api_provider: true
+  slug: rill-data
+  matched_by: domain
 - name: Rome Tools
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rome-tools
+  slug: rome-tools
+  matched_by: name-slug
 - name: Savant Labs
   url: https://www.savantlabs.io/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: savant-labs
+  slug: savant-labs
+  matched_by: domain
 - name: ShapeCI
   url: https://shape.ci/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shapeci
+  slug: shapeci
+  matched_by: domain
 - name: SheetRocks
   url: https://sheet.rocks/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sheetrocks
+  slug: sheetrocks
+  matched_by: domain
 - name: Stel
   url: https://www.stel.life/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stel
+  slug: stel
+  matched_by: domain
 - name: Syft Data
   url: https://www.syftdata.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: syft-data
+  in_network: true
+  is_api_provider: true
+  slug: syft-data
+  matched_by: domain
 - name: Tailorbird
   url: https://www.tailorbirdhomes.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tailorbird
+  slug: tailorbird
+  matched_by: name-slug
 - name: Tembo Health
   url: https://tembo.health/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tembo-health
+  slug: tembo-health
+  matched_by: domain
 - name: Terrastruct
   url: https://terrastruct.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terrastruct
+  slug: terrastruct
+  matched_by: domain
 - name: Treasury
   url: https://treasury.app/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: treasury
+  slug: treasury
+  matched_by: domain
 - name: Unit
   url: https://unitworkers.com/
   stage: seed
@@ -763,65 +845,73 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upstream
+  slug: upstream
+  matched_by: domain
 - name: Upwage
   url: https://www.upwage.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upwage
+  slug: upwage
+  matched_by: domain
 - name: Useful Sensors
   url: https://usefulsensors.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: useful-sensors
+  slug: useful-sensors
+  matched_by: domain
 - name: WhatsCookin'
   url: https://join.whatscookin.us
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whatscookin
+  slug: whatscookin
+  matched_by: domain
 - name: Workhelix
   url: https://workhelix.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workhelix
+  slug: workhelix
+  matched_by: domain
 - name: Wrangle
   url: https://wrangle.io/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wrangle
+  slug: wrangle
+  matched_by: domain
 - name: BeyondHQ
   url: https://www.beyondhq.co/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beyondhq
+  slug: beyondhq
+  matched_by: domain
 - name: Bumblebee Spaces
   url: https://www.bumblebeespaces.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bumblebee-spaces
+  slug: bumblebee-spaces
+  matched_by: domain
 - name: Compaas
   url: https://www.compa.as/
   stage: seed
@@ -835,55 +925,62 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cultivate
+  slug: cultivate
+  matched_by: name-slug
 - name: Datalogue
   url: https://www.datalogue.io/
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datalogue
+  slug: datalogue
+  matched_by: domain
 - name: Dialup
   url: https://dialup.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dialup
+  slug: dialup
+  matched_by: domain
 - name: Doma
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doma
+  slug: doma
+  matched_by: name-slug
 - name: Donut
   url: https://www.donut.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: donut
+  slug: donut
+  matched_by: domain
 - name: Ellipsis
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ellipsis
+  slug: ellipsis
+  matched_by: name-slug
 - name: enrich
   url: https://www.joinenrich.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enrich
+  slug: enrich
+  matched_by: domain
 - name: Eva
   url: https://www.evabot.ai/
   stage: seed
@@ -898,56 +995,63 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fiddler-labs
+  slug: fiddler-labs
+  matched_by: domain
 - name: Free Agency
   url: https://www.freeagency.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: free-agency
+  slug: free-agency
+  matched_by: domain
 - name: Gatheround
   url: https://gatheround.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gatheround
+  slug: gatheround
+  matched_by: domain
 - name: Howard
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: howard
+  slug: howard
+  matched_by: name-slug
 - name: Huddl
   url: https://www.huddl.ai/
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: huddl
+  slug: huddl
+  matched_by: domain
 - name: InCountry
   url: https://incountry.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: incountry
+  slug: incountry
+  matched_by: domain
 - name: Inner Loop Capital
   url: https://www.innerloopcap.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inner-loop-capital
+  slug: inner-loop-capital
+  matched_by: domain
 - name: Lambda
   url: https://lambdalabs.com/
   stage: seed
@@ -962,64 +1066,72 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lina
+  slug: lina
+  matched_by: domain
 - name: Massive Science
   url: https://massivesci.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: massive-science
+  slug: massive-science
+  matched_by: domain
 - name: Modern Empathy
   url: https://www.modernempathy.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modern-empathy
+  slug: modern-empathy
+  matched_by: domain
 - name: Moxxie Ventures
   url: https://www.moxxie.vc/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moxxie-ventures
+  slug: moxxie-ventures
+  matched_by: domain
 - name: NanoVMs
   url: https://nanovms.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nanovms
+  slug: nanovms
+  matched_by: domain
 - name: Newfront Insurance
   url: https://www.newfront.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newfront-insurance
+  slug: newfront
+  matched_by: domain
 - name: NS8
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ns8
+  slug: ns8
+  matched_by: name-slug
 - name: Old Town Media
   url: http://www.oldtownmedianyc.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: old-town-media
+  slug: old-town-media
+  matched_by: name-slug
 - name: Open Collective
   url: https://opencollective.com/
   stage: seed
@@ -1034,9 +1146,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: padlet
+  in_network: true
+  is_api_provider: true
+  slug: padlet
+  matched_by: domain
 - name: Pinpoint
   stage: seed
   status: acquired
@@ -1050,79 +1163,89 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: planetary
+  slug: planetary
+  matched_by: domain
 - name: Podfund
   url: https://pod.fund/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: podfund
+  slug: podfund
+  matched_by: domain
 - name: Raydiant
   url: https://www.raydiant.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raydiant
+  slug: raydiant
+  matched_by: name-slug
 - name: Quartz
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quartz
+  slug: quartz
+  matched_by: name-slug
 - name: Range
   url: https://www.range.co/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: range
+  slug: range
+  matched_by: domain
 - name: RedCircle
   url: https://www.getredcircle.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redcircle
+  slug: redcircle
+  matched_by: name-slug
 - name: Replicant
   url: http://www.replicant.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: replicant
+  slug: replicant
+  matched_by: domain
 - name: Scout.fm
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scoutfm
+  slug: scoutfm
+  matched_by: name-slug
 - name: Skan
   url: https://skan.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skan
+  slug: skan
+  matched_by: domain
 - name: Sounding Board
   url: https://www.soundingboardinc.com/
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sounding-board
+  slug: sounding-board
+  matched_by: domain
 - name: Stampli
   url: https://www.stampli.com/
   stage: seed
@@ -1155,72 +1278,81 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strongsuit
+  slug: strongsuit
+  matched_by: domain
 - name: Subspace
   url: https://www.subspace.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: subspace
+  in_network: true
+  is_api_provider: true
+  slug: subspace
+  matched_by: domain
 - name: SV Academy
   url: https://www.sv.academy/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sv-academy
+  slug: sv-academy
+  matched_by: domain
 - name: Swiftlane
   url: https://www.swiftlane.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swiftlane
+  slug: swiftlane
+  matched_by: domain
 - name: The Block
   url: https://www.theblockcrypto.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-block
+  slug: the-block
+  matched_by: name-slug
 - name: theBoardlist
   url: https://site.theboardlist.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theboardlist
+  slug: theboardlist
+  matched_by: domain
 - name: The Cru
   url: https://www.thecru.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-cru
+  slug: the-cru
+  matched_by: domain
 - name: The Data Guild
   url: https://www.thedataguild.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-data-guild
+  slug: the-data-guild
+  matched_by: domain
 - name: Token
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: token
+  slug: token
+  matched_by: name-slug
 - name: Tonic.ai
   url: https://tonic.ai/
   stage: seed
@@ -1235,9 +1367,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: via
+  slug: via
+  matched_by: domain
 - name: Weights & Biases
   url: https://www.wandb.com/
   stage: seed
@@ -1252,31 +1385,35 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: workflowy
+  in_network: true
+  is_api_provider: true
+  slug: workflowy
+  matched_by: domain
 - name: Zight
   url: https://getcloudapp.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zight
+  slug: zight
+  matched_by: name-slug
 - name: 60dB
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 60db
+  slug: 60db
+  matched_by: name-slug
 - name: Akorda
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: akorda
+  slug: akorda
+  matched_by: name-slug
 - name: Alation
   url: http://alation.com/
   stage: seed
@@ -1290,16 +1427,18 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alien-labs
+  slug: alien-labs
+  matched_by: name-slug
 - name: Alluvium
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alluvium
+  slug: alluvium
+  matched_by: name-slug
 - name: AngelList
   url: https://www.angellist.com/
   stage: seed
@@ -1314,53 +1453,60 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: appzen
+  in_network: true
+  is_api_provider: true
+  slug: appzen
+  matched_by: domain
 - name: Arimo
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arimo
+  slug: arimo
+  matched_by: name-slug
 - name: Authorea
   url: https://www.authorea.com
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: authorea
+  slug: authorea
+  matched_by: domain
 - name: Avec
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avec
+  slug: avec
+  matched_by: name-slug
 - name: Aviso
   url: http://www.aviso.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aviso
+  slug: aviso
+  matched_by: domain
 - name: Banksight
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: banksight
+  slug: banksight
+  matched_by: name-slug
 - name: BlueTalon Data Systems
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluetalon-data-systems
+  slug: bluetalon-data-systems
+  matched_by: name-slug
 - name: Bonusly
   url: https://bonus.ly/
   stage: seed
@@ -1375,61 +1521,69 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bookbub
+  slug: bookbub
+  matched_by: domain
 - name: Bowery
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bowery
+  slug: bowery
+  matched_by: name-slug
 - name: Bright Funds
   url: https://www.brightfunds.org/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bright-funds
+  slug: bright-funds
+  matched_by: domain
 - name: BrightFunnel
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brightfunnel
+  slug: brightfunnel
+  matched_by: name-slug
 - name: buddybuild
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buddybuild
+  slug: buddybuild
+  matched_by: name-slug
 - name: Campus
   url: https://campus.edu/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: campus
+  slug: campus
+  matched_by: domain
 - name: CarbonData
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carbondata
+  slug: carbondata
+  matched_by: name-slug
 - name: Cobalt AI
   url: http://www.cobaltrobotics.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cobalt-ai
+  slug: cobalt-ai
+  matched_by: name-slug
 - name: Codecademy
   url: http://www.codecademy.com/
   stage: seed
@@ -1443,9 +1597,10 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: concord-systems
+  slug: concord-systems
+  matched_by: name-slug
 - name: Copper
   url: https://www.copper.com/
   stage: seed
@@ -1460,9 +1615,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deep-genomics
+  slug: deep-genomics
+  matched_by: domain
 - name: Diffbot
   url: http://www.diffbot.com/
   stage: seed
@@ -1477,47 +1633,53 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: digitalgenius
+  slug: digitalgenius
+  matched_by: domain
 - name: Domino Data Lab
   url: https://www.dominodatalab.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: domino-data-lab
+  slug: domino-data-lab
+  matched_by: domain
 - name: Drawbridge Networks
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drawbridge-networks
+  slug: drawbridge-networks
+  matched_by: name-slug
 - name: Enveil
   url: https://www.enveil.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enveil
+  slug: enveil
+  matched_by: domain
 - name: Everlance
   url: https://www.everlance.com/
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everlance
+  slug: everlance
+  matched_by: domain
 - name: Everledger
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everledger
+  slug: everledger
+  matched_by: name-slug
 - name: Fieldwire
   url: http://www.fieldwire.com/
   stage: seed
@@ -1532,9 +1694,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flashpoint
+  slug: flashpoint
+  matched_by: name-slug
 - name: Flexport
   url: https://www.flexport.com/
   stage: seed
@@ -1549,9 +1712,10 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gigster
+  slug: gigster
+  matched_by: domain
 - name: GONG!
   stage: seed
   status: acquired
@@ -1565,9 +1729,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gotenna
+  slug: gotenna
+  matched_by: domain
 - name: Gradescope
   url: https://gradescope.com/
   stage: seed
@@ -1575,40 +1740,44 @@ companies:
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
   slug: gradescope
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Granthika
   url: https://granthika.co/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: granthika
+  slug: granthika
+  matched_by: domain
 - name: Graphistry
   url: https://www.graphistry.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: graphistry
+  slug: graphistry
+  matched_by: domain
 - name: Gridspace
   url: https://www.gridspace.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gridspace
+  in_network: true
+  is_api_provider: true
+  slug: gridspace
+  matched_by: name-slug
 - name: Highly
   url: https://www.highly.co
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: highly
+  slug: highly
+  matched_by: domain
 - name: Homebrew
   url: http://homebrew.co/
   stage: seed
@@ -1617,28 +1786,30 @@ companies:
   slug: homebrew
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Howdy
   url: http://howdy.ai/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: howdy
+  slug: howdy
+  matched_by: name-slug
 - name: Immunio
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: immunio
+  slug: immunio
+  matched_by: name-slug
 - name: InfluxData
   url: http://influxdata.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  slug: influxdb
+  slug: influxdata
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1646,17 +1817,19 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intricately
+  slug: intricately
+  matched_by: name-slug
 - name: Intuition Robotics
   url: http://www.intuitionrobotics.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intuition-robotics
+  slug: intuition-robotics
+  matched_by: domain
 - name: Kaggle
   url: https://www.kaggle.com/
   stage: seed
@@ -1671,24 +1844,27 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keyboardio
+  slug: keyboardio
+  matched_by: domain
 - name: Kindred.AI
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kindredai
+  slug: kindredai
+  matched_by: name-slug
 - name: Knotel
   url: https://knotel.com
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: knotel
+  slug: knotel
+  matched_by: domain
 - name: LaunchDarkly
   url: http://launchdarkly.com/
   stage: seed
@@ -1703,24 +1879,27 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: layer
+  slug: layer
+  matched_by: domain
 - name: LeapYear
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leapyear
+  slug: leapyear
+  matched_by: name-slug
 - name: MasterClass
   url: http://masterclass.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: masterclass
+  slug: masterclass
+  matched_by: domain
 - name: Meetup
   url: http://www.meetup.com
   stage: seed
@@ -1735,16 +1914,18 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motiva
+  slug: motiva
+  matched_by: domain
 - name: MycroFriends
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mycrofriends
+  slug: mycrofriends
+  matched_by: name-slug
 - name: Netlify
   url: https://www.netlify.com/
   stage: seed
@@ -1758,31 +1939,35 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newsle
+  slug: newsle
+  matched_by: name-slug
 - name: Next Big Idea Club
   url: https://nextbigideaclub.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: next-big-idea-club
+  in_network: true
+  is_api_provider: true
+  slug: next-big-idea-club
+  matched_by: domain
 - name: Nodejitsu
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nodejitsu
+  slug: nodejitsu
+  matched_by: name-slug
 - name: OneRoom
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oneroom
+  slug: oneroom
+  matched_by: name-slug
 - name: Oomnitza
   url: https://www.oomnitza.com/
   stage: seed
@@ -1797,9 +1982,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opensense-formerly-sendergen
+  slug: opensense-formerly-sendergen
+  matched_by: domain
 - name: Orbital Insight
   url: http://orbitalinsight.com/
   stage: seed
@@ -1813,31 +1999,35 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pathgather
+  slug: pathgather
+  matched_by: name-slug
 - name: Pico
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pico
+  slug: pico
+  matched_by: name-slug
 - name: Point
   url: https://point.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: point
+  slug: point
+  matched_by: domain
 - name: Pop Up Archive
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pop-up-archive
+  slug: pop-up-archive
+  matched_by: name-slug
 - name: Primer
   url: https://primer.ai/
   stage: seed
@@ -1852,17 +2042,19 @@ companies:
   stage: seed
   status: unknown
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pulsedata
+  slug: pulsedata
+  matched_by: domain
 - name: ReDEF
   url: http://www.mediaredefined.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redef
+  slug: redef
+  matched_by: name-slug
 - name: Repl.it
   url: https://repl.it/
   stage: seed
@@ -1876,17 +2068,19 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sapho
+  slug: sapho
+  matched_by: name-slug
 - name: Scalyr
   url: https://www.scalyr.com/
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scalyr
+  slug: scalyr
+  matched_by: domain
 - name: Shield AI
   url: http://shield.ai/
   stage: seed
@@ -1900,9 +2094,10 @@ companies:
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: signal-laboratories
+  slug: signal-laboratories
+  matched_by: name-slug
 - name: Slack
   url: https://slack.com/
   stage: seed
@@ -1916,141 +2111,160 @@ companies:
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spiderbook
+  slug: spiderbook
+  matched_by: name-slug
 - name: SpringRole
   url: https://springrole.com
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: springrole
+  slug: springrole
+  matched_by: domain
 - name: StrongDM
   url: http://www.strongdm.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strongdm
+  slug: strongdm
+  matched_by: domain
 - name: Survata
   url: https://www.survata.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: survata
+  slug: survata
+  matched_by: domain
 - name: Terbium Labs
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terbium-labs
+  slug: terbium-labs
+  matched_by: name-slug
 - name: Textio
   url: https://textio.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: textio
+  slug: textio
+  matched_by: domain
 - name: ThinkUp
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thinkup
+  slug: thinkup
+  matched_by: name-slug
 - name: Thirty Labs
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thirty-labs
+  slug: thirty-labs
+  matched_by: name-slug
 - name: Tule Technologies
   url: https://www.tuletechnologies.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tule-technologies
+  slug: tule-technologies
+  matched_by: domain
 - name: TXN
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: txn
+  slug: txn
+  matched_by: name-slug
 - name: TypeLaw
   url: https://www.typelaw.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: typelaw
+  slug: typelaw
+  matched_by: domain
 - name: UCode
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ucode
+  slug: ucode
+  matched_by: name-slug
 - name: ValiMail
   url: http://www.valimail.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
-  is_api_provider: false
-  suggested_slug: valimail
+  in_network: true
+  is_api_provider: true
+  slug: valimail
+  matched_by: domain
 - name: Versive
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: versive
+  slug: versive
+  matched_by: name-slug
 - name: Virgil Security
   url: http://www.virgilsecurity.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virgil-security
+  slug: virgil-security
+  matched_by: domain
 - name: Wonder
   url: https://askwonder.com/
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonder
+  slug: wonder
+  matched_by: name-slug
 - name: YesGraph
   stage: seed
   status: acquired
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yesgraph
+  slug: yesgraph
+  matched_by: name-slug
 - name: YesPath
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yespath
+  slug: yespath
+  matched_by: name-slug
 - name: Zeus
   stage: seed
   status: active
   source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeus
+  slug: zeus
+  matched_by: name-slug
